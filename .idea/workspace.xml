@@ -2,145 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922dd4f4-8e30-4b41-ac85-5e7873b739e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/License.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Useful_Resources.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/datatables-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/datatables-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/directives.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/directives.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/flag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/flag.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/zmd.hierarchical-display.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/addons/zmd.hierarchical-display.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mdb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mdb.lite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mdb.lite.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mdb.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/modules/animations-extended.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/modules/animations-extended.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/roboto/Roboto-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lightbox/default-skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lightbox/default-skin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lightbox/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/overlays/09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/svg/arrow_left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/svg/arrow_right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/svg/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/datatables-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/datatables-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/jquery.zmd.hierarchical-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/jquery.zmd.hierarchical-display.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/masonry.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/progressBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/progressBar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/addons/rating.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/mdb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/mdb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/bs-custom-file-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/enhanced-modals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/forms-free.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/jquery.easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/scrolling-navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/treeview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/velocity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modules/wow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/_custom-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/_custom-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/addons/_datatables-select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/addons/_datatables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/addons/_directives.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/addons/_flags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/addons/_hierarchical-display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/addons/_rating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_masks.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/_waves.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/bootstrap/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/core/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_animations-basic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_carousels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_depreciated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_dropdowns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_footers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_msc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_navbars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_steppers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/_treeview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/mdb.lite.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scss/mdb.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/project/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/project/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-user.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -159,12 +22,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/formatNavbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -178,58 +51,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="-34">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -239,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -260,7 +104,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/update-user.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/project/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/project/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/project/FragmentsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/formatNavbar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
       </list>
     </option>
   </component>
@@ -283,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,11 +180,21 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mywebsiteshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Magazin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,6 +212,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vision\Desktop\PROIECT\Magazin\src\main\resources\templates\fragments" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sda.project" />
     </key>
@@ -419,7 +280,8 @@
       <updated>1570815061022</updated>
       <workItem from="1570815068199" duration="1441000" />
       <workItem from="1570816710536" duration="1982000" />
-      <workItem from="1571155110372" duration="6566000" />
+      <workItem from="1571155110372" duration="9098000" />
+      <workItem from="1571239379867" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;UserController created/added one user&quot;">
       <created>1571076847107</created>
@@ -435,17 +297,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571157130915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Navbar&quot;">
+      <created>1571162284194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571162284194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16616000" />
+    <option name="totallyTimeSpent" value="22194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,8 +323,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3962585" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3962585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,7 +357,8 @@
     <MESSAGE value="&quot;test git&quot;" />
     <MESSAGE value="&quot;UserController created/added one user&quot;" />
     <MESSAGE value="&quot;Add user from browser&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add user from browser&quot;" />
+    <MESSAGE value="&quot;Navbar&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Navbar&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Magazin.iml">
@@ -511,6 +381,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/add-user.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/update-user.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -528,6 +400,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/FragmentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -535,34 +418,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/add-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/update-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
+        <state relative-caret-position="197">
           <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -572,20 +430,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/project/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="129">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/formatNavbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="-34">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>

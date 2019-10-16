@@ -20,7 +20,11 @@ public class UserController {
         this.userRepository = userRepository;
     }
 
+    @GetMapping("/register")
+    public String regUser(){
 
+    return "register";
+    }
 
 
     @GetMapping("/")
