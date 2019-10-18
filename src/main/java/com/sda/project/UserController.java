@@ -1,22 +1,17 @@
 package com.sda.project;
 
+import com.sda.project.users.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-
-import javax.validation.Valid;
 
 @Controller
 public class UserController {
 
-    private final UserRepository userRepository;
+    private final UserService userRepository;
 
     @Autowired
-    public UserController(UserRepository userRepository) {
+    public UserController(UserService userRepository) {
         this.userRepository = userRepository;
     }
 
@@ -25,17 +20,23 @@ public class UserController {
 
     return "register";
     }
-
+    @GetMapping("/login")
+    public String getUser(){
+        userRepository.findById(1l);
+        return "login";
+    }
 
     @GetMapping("/")
     public String getIndex() {
 
-        User one= new User();
-        one.setName("Paul");
-        one.setEmail("2@r.ro");
-        userRepository.save(one);
+        User user= new User();
+        user.setName("Paul");
+        user.setEmail("2@r.ro");
+        userRepository.save(user);
         return "index";
+
     }
+
 
 
 
