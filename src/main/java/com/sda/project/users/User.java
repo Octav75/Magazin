@@ -1,7 +1,4 @@
-package com.sda.project;
-
-import org.hibernate.annotations.Generated;
-//import org.springframework.data.annotation.Id;
+package com.sda.project.users;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -22,12 +19,8 @@ public class User {
     @NotBlank(message = "Email is mandatory")
     private String email;
 
-    public User() {}
-
-    public User(String name, String email) {
-        this.name = name;
-        this.email = email;
-    }
+    @NotBlank(message = "Password is mandatory")
+    private String password;
 
     public long getId() {
         return id;
@@ -52,9 +45,17 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public String toString() {
         return "User{" + "id=" + id + ", name=" + name + ", email=" + email + "}";
     }
-    // standard constructors / setters / getters / toString
 }
