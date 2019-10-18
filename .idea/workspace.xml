@@ -394,7 +394,7 @@
       <workItem from="1571155110372" duration="9098000" />
       <workItem from="1571239379867" duration="11273000" />
       <workItem from="1571324828971" duration="13087000" />
-      <workItem from="1571396240927" duration="856000" />
+      <workItem from="1571396240927" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;UserController created/added one user&quot;">
       <created>1571076847107</created>
@@ -431,15 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571396555696</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;Register form (not working)&quot;">
+      <created>1571397127127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571397127127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44364000" />
+    <option name="totallyTimeSpent" value="44426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -451,7 +457,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3962585" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3962585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
