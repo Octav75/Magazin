@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments/formatNavbar :: header-format">
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<nav th:replace="fragments/navbar :: navigation-bar"></nav>
+<a th:action="@{/home}"></a>
+<h1>=====================</h1>
+<h1>This is the Home Page</h1>
+<h1>=====================</h1>
+
+
+</body>
+</html>

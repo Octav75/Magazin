@@ -21,17 +21,17 @@
                 <div class="form-row mb-4">
                     <div class="col">
                         <!-- First name -->
-                        <input th:field="*{name}" type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                        <input th:field="*{firstName}" type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
                     </div>
                     <div class="col">
                         <!-- Last name -->
-                        <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                        <input th:field="*{lastName}" type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
                     </div>
                 </div>
                 <!-- E-mail -->
-                <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                <input th:field="*{email}" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
                 <!-- Password -->
-                <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                <input th:fiels="*{password}" type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
                 <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
                     At least 8 characters and 1 digit
                 </small>

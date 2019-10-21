@@ -2,12 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
 
-
 <!--Navbar-->
 <nav th:fragment="navigation-bar" class="navbar navbar-expand-lg navbar-dark primary-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">MY STORE</a>
+    <a class="navbar-brand" th:href="@{/home}">MY STORE</a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -33,15 +32,15 @@
             </li>
 
             <li class="nav-item active">
-                <a class="nav-link" href="/index">Home
-                    <span class="sr-only">(current)</span>
+                <a class="nav-link" th:href="@{/index}">Home
+                    <!--<span class="sr-only">(current)</span>-->
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" th:href="@{/register}">Register</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/login">Login</a>
+                <a class="nav-link" th:href="@{/login}">Login</a>
             </li>
 
 

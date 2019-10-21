@@ -3,11 +3,12 @@
       xmlns:th="http://www.thymeleaf.org">
 
 <head th:insert="fragments/formatNavbar :: header-format">
-
+<title>Index</title>
 </head>
 
 <body>
 <nav th:replace="fragments/navbar :: navigation-bar"></nav>
 <h1>PAGINA INDEX.HTML</h1>
+<a th:href="@{/login}">Log in>></a>
 </body>
 </html>
