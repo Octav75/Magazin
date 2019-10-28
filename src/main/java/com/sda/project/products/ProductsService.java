@@ -34,7 +34,10 @@ public class ProductsService{
             throw new NotFoundException("Product not found");
         }
         return product;
+    }
 
+    public Iterable<Product> findAll(){
+        return productsRepository.findAll();
     }
 
 }

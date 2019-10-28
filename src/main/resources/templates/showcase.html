@@ -13,17 +13,17 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3">
-            <div th:replace="fragments/card :: product-card"></div>
+        <div th:each="product, row: ${products}" class="col-sm-3">
+            <div th:replace="fragments/card :: product-card(*{product})"></div>
         </div>
-            <div class="col-sm-3">
-                <div th:replace="fragments/card :: product-card"></div>
-        </div>
+<!--            <div class="col-sm-3">-->
+<!--                <div th:replace="fragments/card :: product-card"></div>-->
+<!--        </div>-->
     </div>
     </div>
     <div class="row">
-        <div th:each="product, row: ${product}" class="product col-lg-3 col-md-4 col-sm-12">
-        <div th:replace="fragments/card :: product-card(*{product})"/>
+<!--        <div th:each="product, row: ${product}" class="product col-lg-3 col-md-4 col-sm-12">-->
+<!--        <div th:replace="fragments/card :: product-card(*{product})"/>-->
 
 </div>
 
