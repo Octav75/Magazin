@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments/formatNavbar :: header-format">
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<nav th:replace="fragments/navbar :: navigation-bar"></nav>
+
+<h1>=====================</h1>
+<h1>Products         Page</h1>
+<h1>=====================</h1>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div th:replace="fragments/card :: product-card"></div>
+        </div>
+            <div class="col-sm-3">
+                <div th:replace="fragments/card :: product-card"></div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div th:each="product, row: ${product}" class="product col-lg-3 col-md-4 col-sm-12">
+        <div th:replace="fragments/card :: product-card(*{product})"/>
+
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>

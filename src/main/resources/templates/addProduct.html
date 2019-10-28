@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments/formatNavbar :: header-format">
+
+</head>
+
+<body>
+<nav th:replace="fragments/navbar :: navigation-bar"></nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm">
+
+<form th:action="@{/addProduct}" th:object="${product}" method="post" class="border border-light p-5">
+
+    <p class="h4 mb-4 text-center">Add new product</p>
+
+    <div class="input-group mb-4">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Upload</span>
+        </div>
+        <div class="custom-file">
+            <input th:field="*{productImage}" class="custom-file-input" id="fileInput" aria-describedby="fileInput" type="file">
+            <label class="custom-file-label" for="fileInput">Product picture</label>
+        </div>
+    </div>
+
+<!--    <label for="productPrice">Product Price</label>-->
+    <input th:field="*{productPrice}" class="form-control mb-4" id="productPrice" type="number" step="any" min="0" placeholder="Product price">
+
+<!--    <label for="productName">Product Name</label>-->
+    <input th:field="*{productName}" class="form-control mb-4" id="productName" type="text" placeholder="Product name">
+
+<!--    <label for="productDescription">Product Description</label>-->
+    <textarea th:field="*{productDescription}" class="form-control mb-4" id="productDescription" placeholder="Product description"></textarea>
+
+<!--    <label for="productStock">Product Availability</label>-->
+    <input th:field="*{productStock}" class="form-control mb-4" id="productStock" type="text" placeholder="Product availability">
+
+    <button class="btn btn-info btn-block my-4" type="submit">ADD PRODUCT</button>
+
+</form>
+        </div>
+        <div class="col-sm-2">
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

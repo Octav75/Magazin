@@ -29,6 +29,6 @@ public class RegisterController {
     public String postRegister(User user) {
         userService.save(user);
 
-        return "index";
+        return "login";
     }
 }

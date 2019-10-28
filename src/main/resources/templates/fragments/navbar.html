@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec=“http://www.thymeleaf.org/extras/spring-security”>
 
 
 <!--Navbar-->
 <nav th:fragment="navigation-bar" class="navbar navbar-expand-lg navbar-dark primary-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" th:href="@{/home}">MY STORE</a>
+    <a class="navbar-brand" th:href="@{/showcase}">MY STORE</a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -21,49 +21,43 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item active">
-                <a class="nav-link" th:href="@{/index}">Home
-                    <!--<span class="sr-only">(current)</span>-->
-                </a>
+                <a class="nav-link" th:href="@{/}">Home</a>
             </li>
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" th:href="@{/register}">Register</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="/login">Login</a>-->
-<!--            </li>-->
 
-
-            <div sec:authorize="isAuthenticated()">
-                <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
             </li>
-            </div>
 
-            <div sec:authorize="!isAuthenticated()">
-                <li class="nav-item">
-                    <a class="nav-link" th:href="@{/register}">Register</a>
-                </li>
-            </div>
-
-
-            <div sec:authorize="!isAuthenticated()">
-                <li class="nav-item">
-                    <a class="nav-link" href="/login">Login</a>
-                </li>
-            </div>
-
+            <li class="nav-item">
+                <a sec:authorize="!isAuthenticated()"class="nav-link" th:href="@{/register}">Register</a>
+            </li>
+            <li class="nav-item">
+<!--                <a class="nav-link" th:href="@{/addProduct}" sec:authorize="hasRole('ADMIN')">Add Product</a>-->
+                <a class="nav-link" th:href="@{/addProduct}" sec:authorize="isAuthenticated()">Add Product</a>
+            </li>
+            <li class="nav-item">
+                <a sec:authorize="!isAuthenticated()"class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a sec:authorize="isAuthenticated()"class="nav-link" href="/logout">Logout</a>
+            </li>
 
 
         </ul>
-        <!--        &lt;!&ndash; Links &ndash;&gt;-->
 
-        <!--        <form class="form-inline">-->
-        <!--            <div class="md-form my-0">-->
-        <!--                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">-->
-        <!--            </div>-->
-        <!--        </form>-->
     </div>
-    <!-- Collapsible content -->
+
+<!--    <div class="welcome">-->
+<!--        <span sec:authorize="isAuthenticated()">Welcome, <span sec:authentication="firstName"></span></span>-->
+<!--    </div>-->
 
 </nav>
 <!--/.Navbar-->
+
