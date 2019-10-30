@@ -1,10 +1,7 @@
 package com.sda.project.products;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Product {
@@ -17,7 +14,12 @@ public class Product {
     private double productPrice;
     private String productDescription;
     private String productStock;
-    private String productImage;
+    @Lob
+    @Column(columnDefinition = "BLOB")
+    private byte[] productImage;
+
+
+
 
     public long getId() {return id;}
 
@@ -55,11 +57,11 @@ public class Product {
         this.productStock = productStock;
     }
 
-    public String getProductImage() {
+    public byte[] getProductImage() {
         return productImage;
     }
 
-    public void setProductImage(String productImage) {
+    public void setProductImage(byte[] productImage) {
         this.productImage = productImage;
     }
 
