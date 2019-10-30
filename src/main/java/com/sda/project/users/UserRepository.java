@@ -10,6 +10,7 @@ import java.util.Optional;
 interface UserRepository extends CrudRepository<User, Long> {
 
     Optional<User> findByEmail(@Param("email") String email);
+//    Optional<User> findByFirstName(@Param("firstName") String firstName);
 }
 
 

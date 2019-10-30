@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec=“http://www.thymeleaf.org/extras/spring-security”>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec=“http://www.thymeleaf.org/extras/spring-security”>
 
 
 <!--Navbar-->
@@ -36,28 +37,29 @@
             </li>
 
             <li class="nav-item">
-                <a sec:authorize="!isAuthenticated()"class="nav-link" th:href="@{/register}">Register</a>
+                <a sec:authorize="!isAuthenticated()" class="nav-link" th:href="@{/register}">Register</a>
             </li>
             <li class="nav-item">
-<!--                <a class="nav-link" th:href="@{/addProduct}" sec:authorize="hasRole('ADMIN')">Add Product</a>-->
+                <!--                <a class="nav-link" th:href="@{/addProduct}" sec:authorize="hasRole('ADMIN')">Add Product</a>-->
                 <a class="nav-link" th:href="@{/addProduct}" sec:authorize="isAuthenticated()">Add Product</a>
             </li>
             <li class="nav-item">
-                <a sec:authorize="!isAuthenticated()"class="nav-link" href="/login">Login</a>
+                <a sec:authorize="!isAuthenticated()" class="nav-link" href="/login">Login</a>
             </li>
             <li class="nav-item">
-                <a sec:authorize="isAuthenticated()"class="nav-link" href="/logout">Logout</a>
+                <a sec:authorize="isAuthenticated()" class="nav-link" href="/logout">Logout</a>
             </li>
 
-
+            </li>
+            <li class="navbar-text white-text">
+<!--                <a sec:authorize="isAuthenticated()" class="nav-link">Welcome-->
+<!--                    <span th:text ="${#authentication.getPrincipal().getUser().getFirstName()}"></span>-->
+<!--                </a>-->
+                <div sec:authorize="isAuthenticated()">
+                    Welcome, <span sec:authentication="name">Username</span>
+                </div>
+            </li>
         </ul>
-
     </div>
-
-<!--    <div class="welcome">-->
-<!--        <span sec:authorize="isAuthenticated()">Welcome, <span sec:authentication="firstName"></span></span>-->
-<!--    </div>-->
-
 </nav>
-<!--/.Navbar-->
 

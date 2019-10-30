@@ -34,17 +34,29 @@ public class UserService implements UserDetailsService {
     public Optional<User> getById(Long id) {
         return userRepository.findById(id);
     }
+    public Optional<User>  getByEmail (String email){return userRepository.findByEmail(email); }
 
     @Override
-    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        Optional<User> byEmail = userRepository.findByEmail(email);
+//    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+//        Optional<User> byEmail = userRepository.findByEmail(email);
+//        User user;
+//        if(byEmail.isPresent()) {
+//            user=byEmail.get();
+//        }else {
+//            throw new UsernameNotFoundException("User not found");
+//        }
+//        return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPassword(), getAuthority(user));
+//    }
+
+    public UserDetails loadUserByUsername(String firstName) throws UsernameNotFoundException {
+        Optional<User> byFirstName = userRepository.findByEmail(firstName);
         User user;
-        if(byEmail.isPresent()) {
-            user=byEmail.get();
+        if(byFirstName.isPresent()) {
+            user=byFirstName.get();
         }else {
             throw new UsernameNotFoundException("User not found");
         }
-        return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPassword(), getAuthority(user));
+        return new org.springframework.security.core.userdetails.User(user.getFirstName(), user.getPassword(), getAuthority(user));
     }
 
     private Collection<? extends GrantedAuthority> getAuthority(User user) {

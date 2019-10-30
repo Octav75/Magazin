@@ -13,7 +13,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div th:each="product, row: ${products}" class="col-sm-3">
+        <div th:each="product, row: ${products}" class="col-sm-2">
             <div th:replace="fragments/card :: product-card(*{product})"></div>
         </div>
 <!--            <div class="col-sm-3">-->

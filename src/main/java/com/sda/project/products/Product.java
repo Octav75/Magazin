@@ -26,7 +26,6 @@ public class Product {
     public String getProductName() {
         return productName;
     }
-
     public void setProductName(String productName) {
         this.productName = productName;
     }
@@ -34,7 +33,6 @@ public class Product {
     public double getProductPrice() {
         return productPrice;
     }
-
     public void setProductPrice(double productPrice) {
         this.productPrice = productPrice;
     }
